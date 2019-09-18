@@ -223,6 +223,7 @@ export default class AnalisysApp extends Component {
             toast.warning("Failed to run analisys. :(", {
                 position: toast.POSITION.TOP_RIGHT
             });
+            $(".loaderInfo").hide();
             console.log(error.message)
         }
     }
