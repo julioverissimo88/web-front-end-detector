@@ -1,0 +1,23 @@
+#content > div > div > main > div > div.row > div:nth-child(1) > div > div.card-body > a.btn.btn-danger.btn-icon-split{
+  margin-left: 8px;
+}
+
+#content [type=checkbox]{
+ margin-right: 5px !important;
+}
+
+#content label:hover{
+  color: #4e73df !important;
+  cursor:pointer !important;
+ }
+
+ .container-dropzone{
+  border: 1px black dotted !important;
+  height: 200px !important;
+}
+
+.container-dropzone p{
+  color:#808080;
+  text-align: center;
+  margin-top: 5%;
+}
