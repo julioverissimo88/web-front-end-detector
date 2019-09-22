@@ -24,7 +24,7 @@ export default class Result extends Component {
                 
                 <DataTable value={this.props.resultSuspiciousBehavior} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -36,7 +36,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultDuplicateStyleAttributes} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -48,7 +48,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultGodStyleResource} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -60,7 +60,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultHiddenListener} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -72,7 +72,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultMagicResource} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -84,7 +84,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultGodStringResource} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -96,7 +96,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultInappropriateStringReuse} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -108,7 +108,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultNotFoundImage} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -120,7 +120,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultCoupledUIComponent} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -132,7 +132,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultFlexAdapter} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -144,7 +144,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultBrainUIComponent} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -156,7 +156,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultCompUIIO} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -168,7 +168,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultNotFragment} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -180,7 +180,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultExcessiveFragment} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
@@ -192,7 +192,7 @@ export default class Result extends Component {
                 </div>
                 <DataTable value={this.props.resultFoolAdapter} paginator={true} rows={10} first={0}
                     paginatorTemplate="RowsPerPageDropdown PageLinks FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink">
-                    <Column className="break-text" field="arquivo" header="Arquivo" />
+                    <Column className="break-text" field="arquivo" header="File" />
                     <Column field="linha" header="Line" style={{width:'100px'}} />
                     <Column field="coluna" header="Collumn" style={{width:'100px'}} />
                     <Column field="tipoSmell" header="Type" style={{width:'100px'}} />
