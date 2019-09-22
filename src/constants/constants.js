@@ -1,4 +1,4 @@
-export const APIURL = "https://detector-api.herokuapp.com";
+export const APIURL = "https://detector-api.herokuapp.com/detector";
 
 export const APICORSCONFIG = {
     headers: {
